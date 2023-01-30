@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    width: 100%;
+    background: url(./images/alexander-grey-eMP4sYPJ9x0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo {
+    color: rgb(9, 9, 56);
+    font-size: 38px;
+    font-family: serif;
+    float: left;
+    padding-top: 12px;
+
+}
+
+.menu {
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 40px;
+    margin-top: 27px;
+    font-size: 18px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(7, 7, 47);
+    font-family: serif;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+li:hover {
+    color: #718d93;
+}
+
+/* ===end nav===== */
+
+.contant {
+    width: 1200px;
+    height: auto;
+    margin: 9%;
+    color: rgb(19, 8, 60);
+    position: relative;
+}
+
+.contant .pra {
+    padding: 20px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-family: serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.contant h1 {
+    font-family: serif;
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.contant .btn {
+    width: 160px;
+    height: 40px;
+    background-color:rgb(19, 8, 60); ;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contant .btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #718d93;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background-color: rgba(19, 19, 59, 0.753);
+    position: absolute;
+    top: -20px;
+    left: 890px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: serif;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+       border-radius: 10px;
+    margin: 2px;
+    margin: 8px;
+
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: serif;
+}
+::placeholder{
+    color: rgba(254, 254, 254, 0.778);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn2{
+    width: 240px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn2:hover{
+  color: rgb(19, 8, 60); ;
+  background-color: #fff;
+
+}
+.btn2 a{
+    text-decoration: none;
+    color: rgb(9, 9, 56);
+    font-size: 700;
+
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: rgb(163, 160, 110);
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+   
+
+}
